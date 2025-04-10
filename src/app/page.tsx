@@ -148,7 +148,7 @@ export default function Home() {
 
           {/* Login Form */}
           <div className="p-6 rounded-md bg-secondary/50">
-            <Tabs defaultvalue="login" className="w-full">
+            <Tabs defaultValue="login" className="w-full">
               <TabsList className="grid w-full grid-cols-2">
                 <TabsTrigger value="login">Login</TabsTrigger>
                 <TabsTrigger value="register">Register</TabsTrigger>
@@ -287,3 +287,4 @@ export default function Home() {
     </div>
   );
 }
+
